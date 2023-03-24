@@ -2,7 +2,7 @@ import React from 'react'
 
 const Video1 = () => {
     return (
-        <div>Video1</div>
+        <div style={{color:'black'}}>Video1</div>
     )
 }
 
