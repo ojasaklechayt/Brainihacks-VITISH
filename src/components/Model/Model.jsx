@@ -1,6 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 import './Model.css';
 const Model = () => {
+    const navigate = useNavigate();
+
+    const navigatevideo1 = () =>{
+        navigate('/videoone');
+    }
+
+    const navigatevideo2 = () =>{
+        navigate('/videotwo');
+    }
+
     return (
         <div className="wrapper-outside">
             <div className="wrapper">
@@ -16,7 +27,7 @@ const Model = () => {
                         agencies, parking enforcement companies, toll operators, and other organizations that need to
                         monitor vehicle movements.</p>
                     <div className="button">
-                        <button>View</button>
+                        <button onClick={navigatevideo1}>View</button>
                     </div>
                 </div>
                 <div className="card2">
@@ -37,7 +48,7 @@ const Model = () => {
                         convenience, it also raises significant privacy and ethical concerns. These include issues related
                         to data protection, surveillance, and potential biases in the algorithms used.</p>
                     <div className="button">
-                        <button>View</button>
+                        <button onClick={navigatevideo2}>View</button>
                     </div>
                 </div>
             </div>
