@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.wrapper_outside{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: url(../assets/Vector_2646.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    /* background-color: aliceblue; */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 5%;
+    gap: 2%;
+}
+
+.wrapper h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 6rem;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.wrapper button {
+    background: rgb(68, 9, 130);
+    opacity: 80%;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper button:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}

@@ -1,5 +1,5 @@
-import React from 'react'
-import './Model.css'
+import React from 'react';
+import './Model.css';
 const Model = () => {
     return (
         <div className="wrapper-outside">
