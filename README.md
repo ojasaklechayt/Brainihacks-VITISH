@@ -10,7 +10,7 @@ https://brainihacks.vercel.app/
 
 # Tech Stack Used 
 
-ReactJS
+ReactJS and VanillaJS
 
 # Note
 
