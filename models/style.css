@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+    color: aliceblue;
+}
+
+.wrapper-outside{
+    width: auto;
+    height: 79.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5%;
+    background: url(../gradient-technology-symbols-background_23-2149110134.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-color: aliceblue;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.card1{
+    backdrop-filter: blur(5px);
+    border: 0.5px solid rgb(98, 43, 226);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.card1 p, .card2 p{
+    font: bold;
+}
+
+.card2{
+    backdrop-filter: blur(5px);
+    border: 0.5px solid rgb(98, 43, 226);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.button button{
+    background: rgb(98, 43, 226);
+    opacity: 80%;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.button button:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
