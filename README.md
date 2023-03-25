@@ -10,8 +10,9 @@ https://brainihacks.vercel.app/
 
 # Tech Stack Used 
 
-ReactJS and VanillaJS
+VanillaJS
 
 # Note
 
-It is not responsive as it is an Hackathon Project for VITISH Hackathon for Kavach Hackathon Selection.
+1. It is not responsive as it is an Hackathon Project for VITISH Hackathon for Kavach Hackathon Selection.
+2. It is not complete code as the main application is build on ReactJS.
