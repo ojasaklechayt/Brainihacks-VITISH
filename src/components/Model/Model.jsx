@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
-import './Model.css';
+import styles from './Model.module.css';
 import { motion } from 'framer-motion';
 
 const Model = () => {
@@ -18,13 +18,13 @@ const Model = () => {
     }
 
     return (
-        <div className="wrapper-outside">
-            <div className="wrapper">
+        <div className={styles.wrapper_outside}>
+            <div className={styles.wrapper}>
                 <MotionHeading
                     initial={{ opacity: 0, y: -100 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.5 }}>
-                    <div className="card1">
+                    <div className={styles.card1}>
                         <h2>Automatic Numberplate Recognisation System</h2>
                         <p>Automatic Number Plate Recognition (ANPR) or Automatic License Plate Recognition (ALPR) is a
                             technology that uses optical character recognition (OCR) and pattern recognition software to read
@@ -35,7 +35,7 @@ const Model = () => {
                             ANPR technology has become increasingly widespread and is now commonly used by law enforcement
                             agencies, parking enforcement companies, toll operators, and other organizations that need to
                             monitor vehicle movements.</p>
-                        <div className="button">
+                        <div className={styles.button}>
                             <button onClick={navigatevideo1}>View</button>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Model = () => {
                     initial={{ opacity: 0, y: 100 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.5 }}>
-                    <div className="card2">
+                    <div className={styles.card2}>
                         <h2>Facial Recognisation System</h2>
                         <p>Facial recognition technology is a type of biometric system that uses algorithms to identify and
                             authenticate individuals based on their facial features. The technology works by analyzing and
@@ -61,7 +61,7 @@ const Model = () => {
                             While facial recognition technology has many potential benefits, such as improving security and
                             convenience, it also raises significant privacy and ethical concerns. These include issues related
                             to data protection, surveillance, and potential biases in the algorithms used.</p>
-                        <div className="button">
+                        <div className={styles.button}>
                             <button onClick={navigatevideo2}>View</button>
                         </div>
                     </div>
