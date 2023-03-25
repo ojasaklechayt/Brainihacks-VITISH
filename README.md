@@ -8,6 +8,10 @@ Automatic Numberplate Detection System and Facial Detection System
 
 https://brainihacks.vercel.app/
 
+# Tech Stack Used 
+
+ReactJS
+
 # Note
 
 It is not responsive as it is an Hackathon Project for VITISH Hackathon for Kavach Hackathon Selection.
