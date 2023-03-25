@@ -6,7 +6,7 @@ Automatic Numberplate Detection System and Facial Detection System
 
 # Link
 
-https://brainihacks.vercel.app/
+https://grand-jalebi-aea097.netlify.app/
 
 # Tech Stack Used 
 
