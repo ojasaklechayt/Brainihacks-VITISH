@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <div>
-        <ClimbingBoxLoader style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}} color="#7c36d6" /> :
         <BrowserRouter>
           <Routes>
             <Route index element={<Home />} />
