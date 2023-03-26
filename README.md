@@ -22,7 +22,7 @@ https://brainihacks.vercel.app/
 
 ### Tech Stack Used 
 
-ReactJS
+ReactJS,Python,OpenCV,YoLo model
 
 ### Note
 
