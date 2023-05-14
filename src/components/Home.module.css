@@ -1,24 +1,27 @@
+/* Import the Poppins font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+/* Reset the margin, padding, and box-sizing for all elements */
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-
+/* Style the outer wrapper element */
 .wrapper_outside{
     width: auto;
     height: 100vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: url(../assets/Vector_2646.jpg);
+    background: url(../assets/Vector_2646.jpg); /* Use a background image for the outer wrapper element */
     background-repeat: no-repeat;
     background-size: 100% 100vh;
     /* background-color: aliceblue; */
 }
 
+/* Style the inner wrapper element */
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -30,13 +33,15 @@
     gap: 2%;
 }
 
+/* Style the heading element inside the inner wrapper */
 .wrapper h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; /* Use the Poppins font for the heading */
     font-size: 6rem;
     margin-bottom: 1%;
     color: white;
 }
 
+/* Style the button element inside the inner wrapper */
 .wrapper button {
     background: rgb(68, 9, 130);
     opacity: 80%;
@@ -47,9 +52,10 @@
     text-decoration: none;
     display: inline-block;
     font-size: 1.2rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; /* Use the Poppins font for the button */
 }
 
+/* Style the button element on hover */
 .wrapper button:hover {
     background: white;
     color: black;
