@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); /* Import the Poppins font from Google Fonts */
 
 * {
     margin: 0%;
     padding: 0%;
-    font-family: "Poppins", sans-serif;
-    color: aliceblue;
+    font-family: "Poppins", sans-serif; /* Set the default font family to Poppins */
+    color: aliceblue; /* Set the default text color to aliceblue */
 }
 
 .wrapper_outside{
@@ -13,11 +13,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5% 5%;
-    background: url(../../assets/gradient-technology-symbols-background_23-2149110134.avif);
+    padding: 5% 5%; /* Set the padding of the wrapper_outside element */
+    background: url(../../assets/gradient-technology-symbols-background_23-2149110134.avif); /* Set the background image of the wrapper_outside element */
     background-repeat: no-repeat;
     background-size: 100% 100vh;
-    background-color: aliceblue;
+    background-color: aliceblue; /* Set the background color of the wrapper_outside element to aliceblue */
 }
 
 .wrapper{
@@ -26,12 +26,12 @@
     justify-content: center;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    gap: 5%; /* Set the gap between the elements in the wrapper element */
 }
 
 .card1{
-    backdrop-filter: blur(5px);
-    border: 0.5px solid rgb(98, 43, 226);
+    backdrop-filter: blur(5px); /* Apply a backdrop filter to the card1 element */
+    border: 0.5px solid rgb(98, 43, 226); /* Set the border of the card1 element */
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -41,12 +41,12 @@
 }
 
 .card1 p, .card2 p{
-    font: bold;
+    font: bold; /* Set the font weight of the paragraph elements inside card1 and card2 to bold */
 }
 
 .card2{
-    backdrop-filter: blur(5px);
-    border: 0.5px solid rgb(98, 43, 226);
+    backdrop-filter: blur(5px); /* Apply a backdrop filter to the card2 element */
+    border: 0.5px solid rgb(98, 43, 226); /* Set the border of the card2 element */
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -56,20 +56,20 @@
 }
 
 .button button{
-    background: rgb(98, 43, 226);
-    opacity: 80%;
+    background: rgb(98, 43, 226); /* Set the background color of the button element */
+    opacity: 80%; /* Set the opacity of the button element */
     border-radius: 25px;
-    color: white;
+    color: white; /* Set the text color of the button element to white */
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1.2rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; /* Set the font family of the button element to Poppins */
 }
 
 .button button:hover {
-    background: white;
-    color: black;
-    cursor: pointer;
+    background: white; /* Change the background color of the button element on hover */
+    color: black; /* Change the text color of the button element on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
 }
