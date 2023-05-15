@@ -1,55 +1,120 @@
+/* Import the Poppins font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+/* Set all margins and paddings to 0 */
 * {
     margin: 0%;
     padding: 0%;
 }
 
-
-.wrapper-outside{
+/* Define the wrapper-outside class */
+.wrapper-outside {
+    /* Set the width to auto and the height to 100vh */
     width: auto;
     height: 100vh;
+
+    /* Display the element as a flex container */
     display: flex;
+
+    /* Align the flex items to the end of the container */
     justify-content: flex-end;
+
+    /* Align the flex items to the center of the container */
     align-items: center;
+
+    /* Set the background image to the Vector_2646.jpg image */
     background: url(../../assets/Vector_2646.jpg);
+
+    /* Set the background image to repeat */
     background-repeat: no-repeat;
+
+    /* Set the background image to cover the entire container */
     background-size: 100% 100vh;
+
+    /* Set the background color to aliceblue */
     background-color: aliceblue;
 }
 
+/* Define the wrapper class */
 .wrapper {
+    /* Display the element as a flex container */
     display: flex;
+
+    /* Set the flex direction to column */
     flex-direction: column;
+
+    /* Align the flex items to the center of the container */
     justify-content: center;
+
+    /* Align the flex items to the center of the container */
     align-items: center;
+
+    /* Set the text alignment to center */
     text-align: center;
+
+    /* Set the margin right to 5% */
     margin-right: 5%;
+
+    /* Set the gap between flex items to 2% */
     gap: 2%;
 }
 
+/* Define the wrapper h1 class */
 .wrapper h1 {
+    /* Set the font family to Poppins */
     font-family: "Poppins", sans-serif;
+
+    /* Set the font size to 6rem */
     font-size: 6rem;
+
+    /* Set the margin bottom to 1% */
     margin-bottom: 1%;
+
+    /* Set the color to white */
     color: white;
 }
 
+/* Define the wrapper button class */
 .wrapper button {
+    /* Set the background color to rgb(68, 9, 130) */
     background: rgb(68, 9, 130);
+
+    /* Set the opacity to 80% */
     opacity: 80%;
+
+    /* Set the border radius to 25px */
     border-radius: 25px;
+
+    /* Set the color to white */
     color: white;
+
+    /* Set the padding to 15px 32px */
     padding: 15px 32px;
+
+    /* Set the text alignment to center */
     text-align: center;
+
+    /* Remove the text decoration */
     text-decoration: none;
+
+    /* Display the element as an inline block */
     display: inline-block;
+
+    /* Set the font size to 1.2rem */
     font-size: 1.2rem;
+
+    /* Set the font family to Poppins */
     font-family: "Poppins", sans-serif;
 }
 
+/* Define the wrapper button:hover class */
 .wrapper button:hover {
+    /* Set the background color to white */
     background: white;
+
+    /* Set the color to black */
     color: black;
+
+    /* Set the cursor to pointer */
     cursor: pointer;
 }
