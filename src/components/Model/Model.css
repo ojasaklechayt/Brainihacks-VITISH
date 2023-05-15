@@ -1,75 +1,75 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); /* Importing the Poppins font from Google Fonts */
 
 * {
     margin: 0%;
     padding: 0%;
-    font-family: "Poppins", sans-serif;
-    color: aliceblue;
+    font-family: "Poppins", sans-serif; /* Set all text on the page to use the Poppins font with a sans-serif fallback */
+    color: aliceblue; /* Set the default text color to aliceblue */
 }
 
 .wrapper-outside{
     width: auto;
-    height: 100vh;
+    height: 100vh; /* Set the height of the container to be 100% of the viewport height */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5% 5%;
-    background: url(../../assets/gradient-technology-symbols-background_23-2149110134.avif);
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
-    background-color: aliceblue;
+    justify-content: center; /* Center the content horizontally within the container */
+    align-items: center; /* Center the content vertically within the container */
+    padding: 5% 5%; /* Add some padding to the container */
+    background: url(../../assets/gradient-technology-symbols-background_23-2149110134.avif); /* Set a background image for the container */
+    background-repeat: no-repeat; /* Don't repeat the background image */
+    background-size: 100% 100vh; /* Make the background image cover the entire container */
+    background-color: aliceblue; /* Set the background color to aliceblue */
 }
 
 .wrapper{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
+    flex-direction: row; /* Set the direction of the flex container to be horizontal */
+    justify-content: center; /* Center the content horizontally within the container */
+    justify-content: center; /* Center the content horizontally within the container */
+    align-items: center; /* Center the content vertically within the container */
+    gap: 5%; /* Set a gap between the two cards in the container */
 }
 
 .card1{
-    backdrop-filter: blur(5px);
-    border: 0.5px solid rgb(98, 43, 226);
-    border-radius: 25px;
+    backdrop-filter: blur(5px); /* Apply a blur effect to the background of the card */
+    border: 0.5px solid rgb(98, 43, 226); /* Set a border for the card with a light purple color */
+    border-radius: 25px; /* Make the corners of the card rounded */
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 15px;
+    flex-direction: column; /* Set the direction of the flex container to be vertical */
+    align-items: center; /* Center the content vertically within the container */
+    text-align: center; /* Center the text horizontally within the container */
+    padding: 15px; /* Add some padding to the card */
 }
 
 .card1 p, .card2 p{
-    font: bold;
+    font: bold; /* Set the font weight of all paragraphs within the cards to be bold */
 }
 
 .card2{
-    backdrop-filter: blur(5px);
-    border: 0.5px solid rgb(98, 43, 226);
-    border-radius: 25px;
+    backdrop-filter: blur(5px); /* Apply a blur effect to the background of the card */
+    border: 0.5px solid rgb(98, 43, 226); /* Set a border for the card with a light purple color */
+    border-radius: 25px; /* Make the corners of the card rounded */
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 15px;
+    flex-direction: column; /* Set the direction of the flex container to be vertical */
+    align-items: center; /* Center the content vertically within the container */
+    text-align: center; /* Center the text horizontally within the container */
+    padding: 15px; /* Add some padding to the card */
 }
 
 .button button{
-    background: rgb(98, 43, 226);
-    opacity: 80%;
-    border-radius: 25px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.2rem;
-    font-family: "Poppins", sans-serif;
+    background: rgb(98, 43, 226); /* Set the background color of the button to a darker purple */
+    opacity: 80%; /* Set the opacity of the button to 80% */
+    border-radius: 25px; /* Make the corners of the button rounded */
+    color: white; /* Set the text color of the button to white */
+    padding: 15px 32px; /* Add some padding to the button */
+    text-align: center; /* Center the text horizontally within the button */
+    text-decoration: none; /* Remove any text decoration from the button */
+    display: inline-block; /* Set the display of the button to be an inline block */
+    font-size: 1.2rem; /* Set the font size of the button to 1.2rem */
+    font-family: "Poppins", sans-serif; /* Set the font family of the button to Poppins with a sans-serif fallback */
 }
 
 .button button:hover {
-    background: white;
-    color: black;
-    cursor: pointer;
+    background: white; /* Set the background color of the button to white when it's hovered over */
+    color: black; /* Set the text color of the button to black when it's hovered over */
+    cursor: pointer; /* Change the cursor to a pointer when the button is hovered over to indicate it's clickable */
 }
