@@ -3,6 +3,8 @@
     padding: 0%;
 }
 
+/* This block of code sets the default margin and padding of all elements to 0%. */
+
 .wrapper_top{
     width: auto;
     height: 100vh;
@@ -11,6 +13,9 @@
     align-items: center;
     background: rgb(155, 99, 205);
 }
+
+/* This block of code creates a div with class name "wrapper_top" and sets its width to auto, height to 100vh, and center its content horizontally and vertically. It also sets the background color to a shade of purple. This div serves as a container for the entire component. */
+
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -19,11 +24,15 @@
     gap: 50px;
 }
 
+/* This block of code creates a div with class name "wrapper" and sets its display to flex, direction to column, and center its content horizontally and vertically. It also sets the gap between child elements to 50px. This div serves as a container for the content inside the component. */
+
 h1{
     color: rgb(255, 255, 255);
     font-size: 2.4rem;
     text-shadow:2px 2px #ff0095;
 }
+
+/* This block of code sets the color of level one headings to white, font size to 2.4rem, and adds a text shadow. The level one heading serves as the main title of the component. */
 
 .video_out{
     display: flex;
@@ -31,13 +40,20 @@ h1{
     gap: 100px;
 }
 
+/* This block of code creates a div with class name "video_out" and sets its display to flex, direction to row, and sets the gap between child elements to 100px. This div serves as a container for the video content inside the component. */
+
 .video {
     text-align: center;
 }
 
+/* This block of code sets the text alignment of the "video" class to center. This class is applied to the individual video elements within the "video_out" div. */
+
 .video h3 {
     font-size: 1.5rem;
 }
+
+/* This block of code sets the font size of level three headings inside the "video" class to 1.5rem. These headings serve as subtitles for the video content. */
+
 .video img{
     border: 2px solid rgb(149, 0, 255);
     border-radius: 25px;
@@ -45,3 +61,5 @@ h1{
     pointer-events: none;
     margin-top: 1%;
 }
+
+/* This block of code creates an image inside the "video" class and sets a border around it, round its corners, adds a box shadow, disables pointer events, and adds a top margin of 1%. These styles are applied to the individual images within the "video_out" div. */
